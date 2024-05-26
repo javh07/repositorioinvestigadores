@@ -1,0 +1,33 @@
+/* Estilos para los cuadrados */
+.cuadrado1 {
+    width: 200px;
+    height: 200px;
+    background-color: #20e860;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    /* Fondo personalizado */
+    background-image: url('ruta/de/imagen.jpg'); /* Reemplaza 'ruta/de/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Para ajustar la imagen al tamaño del cuadrado */
+}
+
+.cuadrado2 {
+    width: 200px;
+    height: 200px;
+    background-color: #527ecf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px auto;
+    /* Fondo personalizado */
+    background-image: url('ruta/de/imagen.jpg'); /* Reemplaza 'ruta/de/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Para ajustar la imagen al tamaño del cuadrado */
+}
+
+/* Estilos para el texto dentro de los cuadrados */
+.cuadrado p {
+    font-size: 24px;
+    color: #333;
+    text-align: center; /* Para centrar el texto horizontalmente */
+}
