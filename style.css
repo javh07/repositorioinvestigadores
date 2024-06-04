@@ -1,33 +1,59 @@
-/* Estilos para los cuadrados */
-.cuadrado1 {
+.circulo1 {
     width: 200px;
     height: 200px;
+    border-radius: 50%;
     background-color: #20e860;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 30px auto;
-    /* Fondo personalizado */
-    background-image: url('ruta/de/imagen.jpg'); /* Reemplaza 'ruta/de/imagen.jpg' con la ruta de tu imagen */
-    background-size: cover; /* Para ajustar la imagen al tamaño del cuadrado */
+    
 }
 
-.cuadrado2 {
+body{
+    background-image: url('el\ fondo.jpg'); 
+    background-size: cover;
+}
+
+a{
+    color: white;
+    justify-content: center;
+    text-align: center;
     width: 200px;
     height: 200px;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.circulo2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     background-color: #527ecf;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:20px auto;
-    /* Fondo personalizado */
-    background-image: url('ruta/de/imagen.jpg'); /* Reemplaza 'ruta/de/imagen.jpg' con la ruta de tu imagen */
-    background-size: cover; /* Para ajustar la imagen al tamaño del cuadrado */
+    margin:30px auto;
+    background-color: gray;
+    
+    
+    
 }
 
-/* Estilos para el texto dentro de los cuadrados */
-.cuadrado p {
+
+.circulo p {
     font-size: 24px;
     color: #333;
-    text-align: center; /* Para centrar el texto horizontalmente */
+    text-align: center; 
+    
+    
 }
